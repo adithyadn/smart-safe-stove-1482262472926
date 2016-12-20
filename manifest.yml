@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: smart-safe-stove
+  host: smart-safe-stove
+  disk_quota: 1024M
+  services:
+  - smart-safe-stove-cloudantNoSQLDB
+  - smart-safe-stove-iotf-service
